@@ -1,0 +1,269 @@
+	body{
+	background: #EEEEEE;
+	color: #303030;
+	font-size: 9px;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+	button
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.container p {
+	color: #979797;
+}
+
+/* header */
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: 'Roboto';
+}
+
+header #logo {
+	font-size: 2.6em;
+	font-weight: bold;
+}
+
+
+a {
+	text-decoration: none;
+	color: #303030;
+}
+
+a:hover {
+	color: #e10011;
+}
+
+/* button */
+
+.button {
+	display: inline-block;
+	vertical-align: bottom;
+	margin-left: 20px;
+}
+
+.button span {
+	width: 8px;
+    height: 1px;
+    background: #303030;
+    display: block;
+    margin-bottom: 2px;
+}
+
+/* slider */
+
+.slider {
+
+}
+
+.slider .text{
+	display: inline-block;
+	text-align: right;
+	width: 306px;
+	font-size: 1.3em;
+	font-family: 'Roboto';
+}
+
+.slider span {
+	display: block;
+	font-size: 6.8em;
+	font-family: 'Raleway', sans-serif;
+	line-height: 1;
+  letter-spacing: 1.9px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+.slider a {
+	color: #e10011;
+	font-weight: bold;
+
+}
+
+.slider img {
+	width: 182px;
+	height: 230px;
+	margin-left: 50px;
+}
+
+/* fp */
+
+.fp {
+	text-align: center;
+	background: #FFF;
+	border-radius: 4px;
+	padding-bottom: 30px;
+}
+
+.fp h1 {
+	padding-top: 57px;
+}
+
+.fp ul {
+	font-size: 0;
+	padding: 0;
+}
+
+.fp li {
+	list-style: none;
+	display: inline-block;
+}
+
+.fp li img {
+	border-radius: 8px;
+	padding: 2%;
+	height: 90%;
+	width: 150px;
+}
+
+.fp li #sp {
+	height: 100%;
+	width: 306px;
+}
+
+.fp li #hp {
+	width: 147px;
+}
+
+/* email */
+
+.email {
+	text-align: center;
+}
+
+.email h1 {
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size: 2.6em;
+	font-weight: bold;
+}
+
+.form {
+	margin-top: 30px;
+}
+
+input[type="email"] {
+	border: none;
+	border-top-left-radius: 17px;
+  border-bottom-left-radius: 17px;
+	padding: 2%;
+	width: 55%;
+	transition: all .5s ease-in-out;
+}
+
+input[type="email"]:focus {
+	box-shadow: -1pt 2pt 0 1pt #e10011;
+	outline: none;
+}
+
+input[type="email"]::placeholder {
+	color: #979797;
+}
+
+.email label {
+	padding: 2% 3%;
+	background: #e10011;
+	border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+	color: #FFF;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+/* logo */
+
+.logo .container ul {
+	padding: 0;
+	text-align: center;
+}
+
+.logo .container li {
+	background: #FFF;
+	border-radius: 50%;
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	margin: 0 1.2%;
+	transition: all .3s ease-in-out;
+}
+
+.logo .container li:hover {
+	background: #DD3E3E;
+	cursor: pointer;
+	color: #FFF;
+}
+
+.logo .container .icon {
+	width: 15px;
+	height: 15px;
+}
+
+/* footer */
+
+footer {
+	margin-bottom: 10px;
+}
+
+footer .container p {
+	text-align: center;
+	color: #979797;
+}
+
+footer .container b {
+	color: #303030;
+}
