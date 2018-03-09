@@ -178,6 +178,9 @@ a:hover {
 
 .fp li #hp {
 	width: 147px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+    padding: 2.5%;
 }
 
 /* email */
